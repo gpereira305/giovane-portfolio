@@ -26,7 +26,6 @@ html {
     font-size: 10px;
     font-family: 'Poppins', sans-serif;
     color: var(--clr-light-grey);
-    overflow-x: hidden;
 }
 
 body {
@@ -35,6 +34,11 @@ body {
     background: url("../assets/sitebg3.jpg") no-repeat top fixed;
     background-size: cover;
     /* min-width: 100%; */
+}
+
+html,
+body {
+    overflow-x: hidden
 }
 
 a {
@@ -74,6 +78,7 @@ img {
 
 section {
     padding: 4rem;
+    width: 100%;
 }
 
 .has-margin-right {
@@ -254,17 +259,17 @@ header {
     border-radius: 100%;
     position: fixed;
     z-index: 1500;
-    top: 17px;
-    right: 23px;
+    top: 40px;
+    right: 52px;
     -webkit-box-shadow: 0px 0px 24px -4px rgb(202, 152, 255);
     -moz-box-shadow: 0px 0px 24px -4px rgb(202, 152, 255);
     box-shadow: 0px 0px 24px -4px rgb(202, 152, 255);
 }
 
 .menu-toggler {
-    position: fixed;
-    top: 34px;
-    right: 32px;
+    position: relative;
+    top: 16px;
+    right: -10px;
     width: 45px;
     height: 30px;
     display: flex;
@@ -719,13 +724,13 @@ header {
     .toggler-wrapper {
         width: 60px;
         height: 60px;
-        top: 21px;
-        right: 22px;
+        top: 30px;
+        right: 50px;
     }
     .menu-toggler {
         width: 40px;
         height: 26px;
-        top: 37px;
+        top: 17px;
     }
     .bar {
         padding: 2.5px;
