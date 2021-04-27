@@ -254,8 +254,8 @@ header {
 
 .toggler-wrapper {
     background: #0B0B0B;
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     position: fixed;
     z-index: 1500;
@@ -268,9 +268,9 @@ header {
 
 .menu-toggler {
     position: relative;
-    top: 16px;
+    top: 15px;
     right: -10px;
-    width: 45px;
+    width: 40px;
     height: 30px;
     display: flex;
     flex-direction: column;
@@ -722,15 +722,16 @@ header {
 
 @media screen and (max-width: 670px) {
     .toggler-wrapper {
-        width: 60px;
-        height: 60px;
+        width: 55px;
+        height: 55px;
         top: 30px;
         right: 31px;
     }
     .menu-toggler {
-        width: 40px;
+        width: 35px;
         height: 26px;
-        top: 17px;
+        top: 14px;
+        right: -10px;
     }
     .bar {
         padding: 2.5px;
